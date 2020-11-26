@@ -13,7 +13,8 @@ export interface AlertProps extends Omit<SharedMessagingProps, 'actions'> {
   key?: string;
 }
 
-export const Alert: React.FC<AlertProps> = memo(({ className, style, header, ...props }) => {
+export const Alert: React.FC<AlertProps> = memo(
+  ({ className, style, header, ...props }) => {
   const filteredProps = excludePaddingProps(props);
   const icon = useMemo(() => props.type && getMessagingIcon(props.type), [props.type]);
 

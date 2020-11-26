@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Stepper 1`] = `
+.c5 {
+  vertical-align: middle;
+  color: #FFFFFF;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.c0 {
+  display: grid;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.c3 {
+  display: grid;
+}
+
+.c4 {
+  display: none;
+}
+
+.c11 {
+  display: none;
+}
+
+.c8 {
+  padding-top: 3px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.c6 {
+  display: none;
+}
+
+.c9 {
+  display: none;
+}
+
+.c7 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-right: 1rem;
+  display: none;
+}
+
+.c10 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.c1 {
+  background-color: #3C64F4;
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  border-radius: 20px;
+  height: 1.25rem;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.25rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.c2 {
+  display: block;
+  padding-top: 2px;
+}
+
+@media (min-width:720px) {
+  .c0 {
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit,minmax(6rem,14.25rem));
+  }
+}
+
+@media (min-width:720px) {
+  .c3 {
+    grid-template-columns: 1.5rem 1fr;
+    grid-template-rows: 1.5rem 1fr;
+    grid-template-areas: "light dash" "text text";
+    gap: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:720px) {
+  .c4 {
+    display: inline-grid;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    grid-area: light;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    background-color: #3C64F4;
+    border-radius: 50%;
+    text-align: center;
+  }
+}
+
+@media (min-width:720px) {
+  .c11 {
+    display: inline-grid;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    grid-area: light;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    background-color: #8C93AD;
+    border-radius: 50%;
+    text-align: center;
+  }
+}
+
+@media (min-width:720px) {
+  .c6 {
+    display: block;
+    height: 2px;
+    min-width: 0.5rem;
+    width: 100%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    background-color: #D9DCE9;
+    grid-area: dash;
+    background-color: #3C64F4;
+  }
+}
+
+@media (min-width:720px) {
+  .c9 {
+    display: block;
+    height: 2px;
+    min-width: 0.5rem;
+    width: 100%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    background-color: #D9DCE9;
+    grid-area: dash;
+  }
+}
+
+@media (min-width:720px) {
+  .c7 {
+    display: block;
+    grid-area: text;
+    color: #8C93AD;
+  }
+}
+
+@media (min-width:720px) {
+  .c10 {
+    display: block;
+    grid-area: text;
+    color: #313440;
+  }
+}
+
+@media (min-width:720px) {
+  .c1 {
+    display: none;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Step 
+      2
+       of 
+      3
+    </span>
+  </div>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <svg
+        class="c5"
+        color="white"
+        fill="currentColor"
+        height="24"
+        stroke="currentColor"
+        stroke-width="0"
+        style="padding: 2px;"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M9 16.17L5.53 12.7a.996.996 0 10-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 10-1.41-1.41L9 16.17z"
+        />
+      </svg>
+    </div>
+    <div
+      class="c6"
+    />
+    <div
+      class="c7"
+    >
+      Step 1
+    </div>
+  </div>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <span
+        class="c8"
+      >
+        2
+      </span>
+    </div>
+    <div
+      class="c9"
+    />
+    <div
+      class="c10"
+    >
+      Step 2
+    </div>
+  </div>
+  <div
+    class="c3"
+  >
+    <div
+      class="c11"
+    >
+      <span
+        class="c8"
+      >
+        3
+      </span>
+    </div>
+    <div
+      class="c9"
+      hidden=""
+    />
+    <div
+      class="c7"
+    >
+      Step 3
+    </div>
+  </div>
+</div>
+`;
